@@ -62,7 +62,7 @@ cd build-$TARGET-stage2
   --target="$TARGET" \
   --with-sysroot="$PSPDEV/$TARGET" \
   --with-native-system-header-dir="/include" \
-  --enable-languages="c,c++" \
+  --enable-languages="c,c++,objc,obj-c++" \
   --with-float=hard \
   --with-newlib \
   --disable-libssp \
